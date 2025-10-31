@@ -1,0 +1,3 @@
+[console_scripts]
+limference = limference.cli:main
+limference-quick = limference.main:quick_inference_cli

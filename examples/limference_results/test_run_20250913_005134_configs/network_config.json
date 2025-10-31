@@ -1,0 +1,19 @@
+{
+  "unet_in_channels": 1,
+  "unet_out_channels": 1,
+  "unet_init_features": 32,
+  "resnet_in_channels": 1,
+  "resnet_num_params": 2,
+  "resnet_init_features": 64,
+  "cnn_input_shape": [
+    256,
+    256
+  ],
+  "cnn_embedding_dim": 128,
+  "dropout_rate": 0.1,
+  "use_batch_norm": true,
+  "activation": "relu",
+  "optimizer": "adam",
+  "weight_decay": 1e-05,
+  "momentum": 0.9
+}

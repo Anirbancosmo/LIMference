@@ -1,0 +1,29 @@
+{
+  "root": "/Users/anirbanroy/Desktop/output_small_z_3.600_sorted",
+  "boxsize": 80.01,
+  "redshift": 3.6,
+  "ngrid": 256,
+  "n_signal_sims": 2500,
+  "num_noise_simulations": 1,
+  "sfr_model": "Behroozi19",
+  "model_name": "Alma_scaling",
+  "line_name": "CII158",
+  "mmin": 10000000000.0,
+  "n_pdf_bins": 40,
+  "power_spectrum_bins": 50,
+  "inference_methods": [
+    "SNPE",
+    "NPE"
+  ],
+  "analysis_methods": [
+    "power_spectrum",
+    "pdf"
+  ],
+  "max_num_epochs": 100,
+  "stop_after_epochs": 10,
+  "training_batch_size": 50,
+  "learning_rate": 0.0005,
+  "validation_fraction": 0.1,
+  "seed": 42,
+  "device": "cpu"
+}

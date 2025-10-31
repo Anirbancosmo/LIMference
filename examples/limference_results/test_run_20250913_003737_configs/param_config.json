@@ -1,0 +1,28 @@
+{
+  "param_names": [
+    "sigma8",
+    "omega_m"
+  ],
+  "param_ranges": {
+    "sigma8": [
+      0.6,
+      1.0
+    ],
+    "omega_m": [
+      0.2,
+      0.4
+    ]
+  },
+  "param_labels": {
+    "sigma8": "$\\sigma_8$",
+    "omega_m": "$\\Omega_m$",
+    "h": "$h$",
+    "omh2": "$\\Omega_m h^2$",
+    "a_off": "$A_{\\mathrm{off}}$",
+    "b_off": "$B_{\\mathrm{off}}$"
+  },
+  "true_values": {
+    "sigma8": 0.8,
+    "omega_m": 0.3
+  }
+}

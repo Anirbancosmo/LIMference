@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: limference
+Version: 0.1.0
+Summary: Line Intensity Mapping Inference Package - Comparing power spectrum, PDF, and field-level methods
+Home-page: https://github.com/anirbancosmo/limference
+Author: Anirban Roy
+Author-email: anirbanroy.personal@gmail.com
+License: MIT
+Project-URL: Documentation, https://limference.readthedocs.io
+Project-URL: Source, https://github.com/anirbancosmo/limference
+Project-URL: Issues, https://github.com/anirbancosmo/limference/issues
+Project-URL: Paper, https://arxiv.org/abs/XXXXXX
+Keywords: cosmology,astrophysics,line intensity mapping,simulation-based inference,machine learning,bayesian inference,power spectrum,neural networks
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: torch>=1.9.0
+Requires-Dist: sbi>=0.20.0
+Requires-Dist: tqdm>=4.62.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Requires-Dist: flake8>=4.0; extra == "dev"
+Requires-Dist: jupyter>=1.0; extra == "dev"
+Requires-Dist: ipython>=7.0; extra == "dev"
+Requires-Dist: sphinx>=4.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=1.0; extra == "dev"
+Provides-Extra: viz
+Requires-Dist: pygtc; extra == "viz"
+Requires-Dist: seaborn>=0.11.0; extra == "viz"
+Requires-Dist: corner>=2.0; extra == "viz"
+Requires-Dist: plotly>=5.0; extra == "viz"
+Provides-Extra: lim
+Provides-Extra: all
+Requires-Dist: pygtc; extra == "all"
+Requires-Dist: seaborn>=0.11.0; extra == "all"
+Requires-Dist: corner>=2.0; extra == "all"
+Requires-Dist: plotly>=5.0; extra == "all"
+Requires-Dist: pytest>=6.0; extra == "all"
+Requires-Dist: jupyter>=1.0; extra == "all"
+
+
+    LIMference: Line Intensity Mapping Inference Package
+    
+    A comprehensive package for comparing power spectrum, PDF, and field-level 
+    inference methods on Line Intensity Mapping data using simulation-based inference.
+    
