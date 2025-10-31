@@ -10,37 +10,37 @@ LIMference is a comprehensive Python package for performing **Simulation-Based I
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ### Inference Methods
-- 🧠 **Neural Posterior Estimation (NPE)**: Direct posterior learning
-- 🎯 **Sequential NPE (SNPE)**: Active learning with proposal refinement
-- 📊 **Neural Likelihood Estimation (NLE)**: Likelihood-based inference
-- 🔄 **Neural Ratio Estimation (NRE)**: Density ratio estimation
+-  **Neural Posterior Estimation (NPE)**: Direct posterior learning
+-  **Sequential NPE (SNPE)**: Active learning with proposal refinement
+-  **Neural Likelihood Estimation (NLE)**: Likelihood-based inference
+-  **Neural Ratio Estimation (NRE)**: Density ratio estimation
 
 ### Analysis Methods
-- 📈 **Power Spectrum**: Fourier-space summary statistics
-- 📊 **PDF**: Probability distribution function of intensity
-- 🗺️ **Field-Level**: Direct inference from 3D intensity maps using CNNs
+-  **Power Spectrum**: Fourier-space summary statistics
+-  **PDF**: Probability distribution function of intensity
+- ️**Field-Level**: Direct inference from 3D intensity maps using CNNs
 
 ### Advanced Diagnostics
-- ✅ **Coverage Calibration**: Ensures posterior uncertainties are reliable
-- 🎲 **Simulation-Based Calibration (SBC)**: Tests for correct posterior coverage
-- 🔍 **LC2ST**: Local Classifier Two-Sample Test for posterior quality
-- 📉 **MCMC Diagnostics**: Convergence checks with ArviZ
-- 🔮 **Posterior Predictive Checks**: Validates model performance
-- 🌊 **Active Subspace Analysis**: Identifies dominant parameter directions
-- 📐 **Conditional Distribution Analysis**: Parameter correlations and dependencies
+-  **Coverage Calibration**: Ensures posterior uncertainties are reliable
+-  **Simulation-Based Calibration (SBC)**: Tests for correct posterior coverage
+-  **LC2ST**: Local Classifier Two-Sample Test for posterior quality
+-  **MCMC Diagnostics**: Convergence checks with ArviZ
+-  **Posterior Predictive Checks**: Validates model performance
+-  **Active Subspace Analysis**: Identifies dominant parameter directions
+-  **Conditional Distribution Analysis**: Parameter correlations and dependencies
 
 ### Optimization & Performance
-- ⚡ **GPU Acceleration**: Full PyTorch GPU support (10-30× speedup)
-- 🎯 **Hyperparameter Optimization**: Automated tuning with Optuna
-- 🖥️ **HPC Support**: Ready for clusters like NYU Greene
-- 📦 **Batch Processing**: Efficient handling of large simulation suites
+-  **GPU Acceleration**: Full PyTorch GPU support (10-30× speedup)
+-  **Hyperparameter Optimization**: Automated tuning with Optuna
+- ️**HPC Support**: Ready for clusters like NYU Greene
+-  **Batch Processing**: Efficient handling of large simulation suites
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Basic Installation
 ```bash
@@ -70,7 +70,7 @@ pip install -e .
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Basic Inference Pipeline
 ```python
@@ -160,7 +160,7 @@ for param in ["sigma8", "omega_m", "a_off", "b_off"]:
 
 ---
 
-## 🎯 Hyperparameter Optimization
+##  Hyperparameter Optimization
 
 LIMference includes integrated **Optuna** support for automatic hyperparameter tuning:
 ```python
@@ -199,14 +199,14 @@ vis.plot_param_importances(study)
 - Validation fraction
 
 
-## 🔗 Related Projects
+##  Related Projects
 
 - **[LIMpy](https://github.com/Anirbancosmo/LIMpy)** - Line Intensity Mapping simulations
 
 **Related Publications:**
 - Roy et al. (2025) - "Cosmological Parameter Constraints from Line Intensity Mapping with Simulation-Based Inference" *(in prep)*
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built on the excellent [`sbi`](https://github.com/mackelab/sbi) package by Mackelab
 - [`torch`](https://pytorch.org/) for neural network implementations
@@ -214,7 +214,7 @@ vis.plot_param_importances(study)
 - [`arviz`](https://arviz-devs.github.io/arviz/) for MCMC diagnostics
 
 
-## 📞 Contact
+## Contact
 
 **Anirban Roy**
 -  Email: anirbanroy.personal@gmail.com
